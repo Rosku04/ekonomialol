@@ -1,0 +1,58 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;  /* Ciemnoszare tło */
+    color: #fff;  /* Biały kontrastowy tekst */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  /* Cała wysokość ekranu */
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+form {
+    background-color: #444;  /* Ciemniejszy odcień tła formularza */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 300px;  /* Ustalamy szerokość formularza */
+}
+
+.question {
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+label {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
